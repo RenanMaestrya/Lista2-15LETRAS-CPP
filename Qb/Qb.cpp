@@ -5,16 +5,16 @@
 using namespace std;
 int main() 
 {
-	int n;
+	int N;
 	
 	cout << "digite um valor para transforma-lo em modulo: " ;
-	cin >> n;
+	cin >> N;
 	
-	if(n < 0)
-		cout << "O valor em modulo é: " << n * -1 << "\n";
+	if(N < 0)
+		cout << "O valor em modulo é: " << N * -1 << "\n";
 	else
-		cout << "O valor em modulo é: " << n ;
+		cout << "O valor em modulo é: " << N ;
 		
 	return 0;
-}
+};
 
